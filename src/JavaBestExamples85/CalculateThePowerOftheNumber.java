@@ -3,7 +3,7 @@ package JavaBestExamples85;
 public class CalculateThePowerOftheNumber {
 
 	public static void main(String[] args) {
-		int pow = 40;
+		int pow = 4;
 		int sum=2;
 		long s=1;
 //		for(int i = 1;i<=10;i++){

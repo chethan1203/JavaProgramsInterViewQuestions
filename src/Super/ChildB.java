@@ -20,6 +20,7 @@ public class ChildB extends ParentA {
 	}
 
 	public static void main(String[] args) {
+		System.out.println(p);
 		ChildB child = new ChildB();
 		ChildB child1 = new ChildB(5);
 		ChildB child2 = new ChildB(8, "Java");

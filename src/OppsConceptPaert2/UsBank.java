@@ -13,5 +13,5 @@ public interface UsBank {
 	//in interface no main method
 	public void transferMoney();
 	public void credit();
-	public void debit();
+	public void debit(); 
 }

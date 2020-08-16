@@ -2,7 +2,10 @@ package Super;
 
 public class ParentA {
 	
+	static int p =200;
+	
 	public ParentA(){
+		System.out.println(p);
 		System.out.println("This is a default constructor");
 	}
 	
@@ -10,8 +13,9 @@ public class ParentA {
 		System.out.println("The even number is : " + a);
 	}
 	
-	public ParentA(int a, String b){
-		System.out.println("The even number is : " + a);
+	public ParentA(int p, String b){
+		p = this.p;
+		System.out.println("The even number is : " + p);
 		System.out.println("The name of car : " + b);
 	}
 	
